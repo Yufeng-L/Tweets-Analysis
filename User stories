@@ -1,0 +1,7 @@
+Here are some user stories of this program:
+
+I, the user, should be able to get images from others twitter.
+I, the user, should be able to grab tweets through timeline.
+
+I, the user, should be able to generate the world cloud of a twitter user.
+I, the user, should be able to calculate the frequency of words.
