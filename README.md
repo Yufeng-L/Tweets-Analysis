@@ -7,6 +7,6 @@ In this project, we are going to build a software to analyze twitter contents & 
 Will use twitter API and google natural language API to implement.
 Language going to use: Python
 
-Authors:
-Yufeng Lin     yflin@bu.edu
-Yiming Miao    mym1031@bu.edu
+##Authors:
+##Yufeng Lin     yflin@bu.edu
+##Yiming Miao    mym1031@bu.edu
