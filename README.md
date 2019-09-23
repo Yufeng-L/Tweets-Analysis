@@ -13,8 +13,6 @@ Language going to use: Python
 - Yiming Miao    mym1031@bu.edu
 
 
-
-
 ## Google Natural Language API
 
 1.Pre-work
