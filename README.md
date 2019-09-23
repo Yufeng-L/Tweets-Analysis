@@ -24,3 +24,5 @@ Language going to use: Python
  2.Getting setiment from a text
  
  The Python program Google_API_sentiment.py gives an example of analyzing the sentiment of a simple text "Hello, world!". We will get the sentiment score and sentiment magnitude from this API.
+ 
+ 3.
