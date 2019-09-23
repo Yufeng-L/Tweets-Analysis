@@ -1,7 +1,7 @@
 Here are some user stories of this program:
 
-I, the user, should be able to grab tweets from other people whose tweets have keywords: Starbucks.
+I, the user, should be able to grab tweets from other people whose tweets have keywords: Starbucks and the name of some type of coffee.
 I, the user, should be able to grab tweets through timeline.
 
 I, the user, should be able to get emotion analysis from Google Natural Language API about different kinds of coffees.
-I, the user, should be able to get a ranking list of Starbucks different coffees.
+I, the user, should be able to get a ranking list of Starbucks best evaluation coffee.
