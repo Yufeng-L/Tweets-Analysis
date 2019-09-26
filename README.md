@@ -2,7 +2,7 @@
 
 Hello, this is the miniproject1 of EC601.
 
-In this project, we are going to build a software to analyze twitter contents & images.
+In this project, we are going to build a software to help user analyze their desired food/products.
 
 Will use twitter API and google natural language API to implement.
 
@@ -12,7 +12,12 @@ Language going to use: Python
 - Yufeng Lin     yflin@bu.edu
 - Yiming Miao    mym1031@bu.edu
 
+## Tweepy API:
 
+Bascially we use tweepy to get the most recent 100 tweets based on user's desired input.
+Also, user can serach for someone's recent tweets.
+## Scenario of this app:
+User A wants to know comments about the specific product such as Starbucks in this case, and they can get related tweets contain the key word "Starbucks". And then we use Google Natrual Language API to analyze those tweets to get positive/nagative feedbacks based on those texts.
 ## Google Natural Language API
 
 1.Pre-work
@@ -26,5 +31,7 @@ Language going to use: Python
 3.Getting entity's sentiment from a text
 
  The python program Google_entity_sentiment.py gives an example of getting entities from a text and analyze their sentiment score and sentiment magnitude.
+ 
+## Here is the architecture of our APP:
 
 ![Architecutre: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/architecture.png)
