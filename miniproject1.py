@@ -1,5 +1,6 @@
 import tweepy
 import json
+import wget
 
 consumer_key = ""
 consumer_secret = ""
@@ -18,9 +19,11 @@ try:
 except:
     print("Error during authentication")
 
+print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -')
+
 searchlist = []; #hold search list
- #get sepecifc info such as food or any interests
-search_info = api.search(q='starbucks',count = 100)    #starbucks related in this case
+ #get sepecifc info such as food or any interests, exclude retweets
+search_info = api.search(q ='starbucks -filter:retweets',count = 100, include_rts = False, exclude_replies = True)    #starbucks related in this case
 
 searchlist.extend(search_info);
 
@@ -28,32 +31,41 @@ for tweet in search_info:
 	if 'text' in tweet._json:
  		print(tweet._json['text'])   #print contents
 
-#write objects to json
-file = open('tweet.json', 'w') 
-print("Writing tweet objects to JSON file")
-for status in searchlist:
+#write objects to txt
+file = open('tweet.txt', 'w') 
+print("Writing tweet objects to TXT file")
 
-    json.dump(status._json,file,sort_keys = True,indent = 4)
+for tweet in search_info:
 
+	if 'text' in tweet._json:
+		print(tweet._json['text'])
+
+		file.write("%s\n" % tweet._json['text'])
     
     #close the file
 print("Done")
 file.close()
 
 
-
-
-print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  ')
+print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -')
 #get user timeline, such as starbucks, for latest 100 tweets
-
-tweets = api.user_timeline(id='Starbucks',count=100,tweet_mode="extended")
+#if user want to search for someone
+tweets = api.user_timeline(id='Starbucks',count= 100,tweet_mode="extended")
 
 for t in tweets:
 
     print(t.full_text)
-	
 
- 
+
+#download some images
+media_files = set()
+for status in tweets:
+    media = status.entities.get('media', [])
+    if(len(media) > 0):
+        media_files.add(media[0]['media_url'])
+
+for media_file in media_files:
+    wget.download(media_file)
 
 
 
