@@ -1,9 +1,7 @@
 Here are some user stories of this program:
 
-I, the user, should be able to get images from others twitter.
+I, the user, should be able to grab tweets from other people whose tweets have keywords: Starbucks and the name of some type of coffee.
 I, the user, should be able to grab tweets through timeline.
 
-I, the user, should be able to generate the world cloud of a twitter user.
-I, the user, should be able to calculate the frequency of words.
-I, the user, should be able to get emotion analysi from Google NLP API output.
-I, the user, should be able to caculate some people's attitude to something.
+I, the user, should be able to get emotion analysis from Google Natural Language API about different kinds of coffees.
+I, the user, should be able to get a ranking list of Starbucks best evaluation coffee.
