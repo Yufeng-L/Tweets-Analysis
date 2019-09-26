@@ -1,4 +1,4 @@
-# EC601_miniproject1
+# EC601 Miniproject1
 
 Hello, this is the miniproject1 of EC601.
 
