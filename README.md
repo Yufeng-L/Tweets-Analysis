@@ -26,3 +26,5 @@ Language going to use: Python
 3.Getting entity's sentiment from a text
 
  The python program Google_entity_sentiment.py gives an example of getting entities from a text and analyze their sentiment score and sentiment magnitude.
+
+![Architecutre: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/architecture.png)
