@@ -2,10 +2,10 @@ import tweepy
 import json
 import wget
 
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = "xxx"
+consumer_secret = "xxx"
+access_token = "xxx"
+access_token_secret = "xxx"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -57,7 +57,7 @@ for t in tweets:
     print(t.full_text)
 
 
-#download some images
+#download some images from starbucks
 media_files = set()
 for status in tweets:
     media = status.entities.get('media', [])
