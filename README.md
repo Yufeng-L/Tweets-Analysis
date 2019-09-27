@@ -6,7 +6,7 @@ In this project, we are going to build a software to help user analyze their des
 
 Will use twitter API and google natural language API to implement.
 
-Language going to use: Python
+Language: Python
 
 - Authors:
 - Yufeng Lin     yflin@bu.edu
