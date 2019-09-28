@@ -2,10 +2,10 @@ import tweepy
 import json
 import wget
 
-consumer_key = "xxx"
-consumer_secret = "xxx"
-access_token = "xxx"
-access_token_secret = "xxx"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -21,9 +21,11 @@ except:
 
 print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -')
 
+user_input = input("please enter your keyword : ");
+
 searchlist = []; #hold search list
  #get sepecifc info such as food or any interests, exclude retweets
-search_info = api.search(q ='starbucks -filter:retweets',count = 100, include_rts = False, exclude_replies = True)    #starbucks related in this case
+search_info = api.search(q = user_input +'-filter:retweets',count = 100, include_rts = False, exclude_replies = True)    #starbucks related in this case
 
 searchlist.extend(search_info);
 
@@ -49,7 +51,7 @@ file.close()
 
 print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -')
 #get user timeline, such as starbucks, for latest 100 tweets
-#if user want to search for someone
+#if user want to search for someone 
 tweets = api.user_timeline(id='Starbucks',count= 100,tweet_mode="extended")
 
 for t in tweets:
