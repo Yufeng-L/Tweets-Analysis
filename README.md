@@ -45,3 +45,8 @@ User A wants to know comments about the specific product such as Starbucks, and 
 
 ## Here is the Sample Visualizatoin of Result (Key word: 'Starbucks')
 ![SampleWordcloud: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/cloud.png)
+
+## Here is the Sample Output of Sentiment Anlaysis (Key word: 'Starbucks')
+
+![SampleOutput_Sentiment: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/sampleoutput.png)
+
