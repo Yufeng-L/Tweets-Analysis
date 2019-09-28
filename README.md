@@ -13,12 +13,12 @@ Language: Python
 - Yiming Miao    mym1031@bu.edu
 
 ## Tweepy API:
-
 Bascially we use tweepy to get the most recent 100 tweets based on user's desired input.
 Also, user can serach for someone's recent tweets.
+
 ## Scenario of this app:
 User A wants to know comments about the specific product such as Starbucks, and they can get related tweets contain the key word "Starbucks". For the latest implementation, we ask users to enter their desired keyword, and then the program can search for latest 100 tweets. Then we use Google Natrual Language API to analyze those tweets to get positive/nagative feedbacks based on those texts. 
-
+### Reminder: don't forget to add '' when entering key word
 ## User Stories
 - I, the user, should be able to grab most recent tweets with my desired input.
 - I, the user, should be able to grab tweets through one's timeline. (deleted in latest ver)
@@ -42,3 +42,6 @@ User A wants to know comments about the specific product such as Starbucks, and 
 ## Here is the architecture of our APP:
 
 ![Architecutre: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/architecture.png)
+
+## Here is the Sample Visualizatoin of Result (Key word: 'Starbucks')
+![SampleWordcloud: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/cloud.png)
