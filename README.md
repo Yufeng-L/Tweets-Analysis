@@ -20,10 +20,10 @@ Also, user can serach for someone's recent tweets.
 User A wants to know comments about the specific product such as Starbucks, and they can get related tweets contain the key word "Starbucks". For the latest implementation, we ask users to enter their desired keyword, and then the program can search for latest 100 tweets. Then we use Google Natrual Language API to analyze those tweets to get positive/nagative feedbacks based on those texts. 
 
 ## User Stories
-I, the user, should be able to grab most recent tweets with my desired input.
-I, the user, should be able to grab tweets through one's timeline. (deleted in latest ver)
-I, the user, should be able to visualize the results of output. (via wordcloud)
-I, the user, should be able to get sentiment analysis from Google Natural Language API about my desirde input.
+- I, the user, should be able to grab most recent tweets with my desired input.
+- I, the user, should be able to grab tweets through one's timeline. (deleted in latest ver)
+- I, the user, should be able to visualize the results of output. (via wordcloud)
+- I, the user, should be able to get sentiment analysis from Google Natural Language API about my desirde input.
 
 ## Google Natural Language API
 
