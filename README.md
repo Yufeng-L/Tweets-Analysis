@@ -14,15 +14,16 @@ Language: Python
 
 ## Tweepy API:
 Bascially we use tweepy to get the most recent 100 tweets based on user's desired input.
-Also, user can serach for someone's recent tweets.
+Also, user can serach for someone's recent tweets. (Deleted in the latest ver)
+This app will mainly focused on tweepy's serach module.
 
 ## Scenario of this app:
 User A wants to know comments about the specific product such as Starbucks, and they can get related tweets contain the key word "Starbucks". For the latest implementation, we ask users to enter their desired keyword, and then the program can search for latest 100 tweets. Then we use Google Natrual Language API to analyze those tweets to get positive/nagative feedbacks based on those texts. 
 ### Reminder: don't forget to add '' when entering key word
 ## User Stories
 - I, the user, should be able to grab most recent tweets with my desired input.
-- I, the user, should be able to grab tweets through one's timeline. (deleted in latest ver)
-- I, the user, should be able to visualize the results of output. (via wordcloud)
+- I, the user, should be able to grab tweets through one's timeline. (Deleted in the latest ver)
+- I, the user, should be able to visualize the results of output. (Via wordcloud)
 - I, the user, should be able to get sentiment analysis from Google Natural Language API about my desirde input.
 
 ## Google Natural Language API
@@ -45,3 +46,8 @@ User A wants to know comments about the specific product such as Starbucks, and 
 
 ## Here is the Sample Visualizatoin of Result (Key word: 'Starbucks')
 ![SampleWordcloud: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/cloud.png)
+
+## Here is the Sample Output of Sentiment Anlaysis (Key word: 'Starbucks')
+
+![SampleOutput_Sentiment: ](https://github.com/Yufeng-L/EC601_miniproject1/blob/master/sampleoutput.png)
+
