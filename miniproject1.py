@@ -150,6 +150,6 @@ plt.imshow(wc,interpolation = "bilinear")
 plt.axis('off')
 plt.show()
 
-wc.to_file('the PATH of the worldcloud picture that you want to save it/cloud.png')
+wc.to_file('the PATH of the worldcloud picture that you want to save it')
 
 
