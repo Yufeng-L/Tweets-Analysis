@@ -63,14 +63,12 @@ print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 client = language_v1.LanguageServiceClient()
 
-with open('/Users/linyufeng/Desktop/EC601_miniproject1/tweet.txt', 'r') as f:
+with open('the PATH of tweet.txt', 'r') as f:
     content = f.read().splitlines()
     # print(content)
     # length = len(content)
     # print(length)
 # content = ' Hello, world!'
-# f = open('/Users/mym/Desktop/test.txt')
-# content = f.read()
 f.close()
 
 
@@ -152,6 +150,6 @@ plt.imshow(wc,interpolation = "bilinear")
 plt.axis('off')
 plt.show()
 
-wc.to_file('/Users/linyufeng/Desktop/EC601_miniproject1/cloud.png')
+wc.to_file('the PATH of the worldcloud picture that you want to save it/cloud.png')
 
 
