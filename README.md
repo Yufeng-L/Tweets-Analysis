@@ -40,7 +40,7 @@ User A wants to know comments about the specific product such as Starbucks, and 
 
  The Python program Google_keyword.py gives an example of getting keywords(or in other words:the entities) from the text. Entities can be broadly divided into two categories: proper nouns or common nouns (also called "nouns" in natural language processing) that correspond to unique entities (specific characters, places, etc.). If something is a noun, it will be recognized as an entity.
  
-- Get entity's sentiment from a text
+##### - Get entity's sentiment from a text
 
  The Python program Google_entity_sentiment.py gives an example of getting entities from a text and analyze their sentiment score and sentiment magnitude.
  
