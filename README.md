@@ -19,7 +19,7 @@ This app will mainly focused on tweepy's serach module.
 
 ## Scenario of this app:
 User A wants to know comments about the specific product such as Starbucks, and they can get related tweets contain the key word "Starbucks". For the latest implementation, we ask users to enter their desired keyword, and then the program can search for latest 100 tweets. Then we use Google Natrual Language API to analyze those tweets to get positive/nagative feedbacks based on those texts. 
-### :warning: Reminder: don't forget to add '' when entering key word :warning:
+### :warning: Reminder: Don't forget to include '' when entering key word :warning:
 ## User Stories
 - I, the user, should be able to grab most recent tweets with my desired input.
 - I, the user, should be able to grab tweets through one's timeline. __(Deleted in the latest ver)__
