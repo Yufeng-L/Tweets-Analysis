@@ -1,19 +1,20 @@
-# Imports the Google Cloud client library
-from google.cloud import language
-from google.cloud.language import enums
-from google.cloud.language import types
+from google.cloud import language_v1
+from google.cloud.language_v1 import enums
+import six
 
-# Instantiates a client
-client = language.LanguageServiceClient()
+def sample_analyze_sentiment(content):
 
-# The text to analyze
-text = u'Hello, world!'
-document = types.Document(
-    content=text,
-    type=enums.Document.Type.PLAIN_TEXT)
+    client = language_v1.LanguageServiceClient()
 
-# Detects the sentiment of the text
-sentiment = client.analyze_sentiment(document=document).document_sentiment
+    # content = 'Your text to analyze, e.g. Hello, world!'
 
-print('Text: {}'.format(text))
-print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
+    if isinstance(content, six.binary_type):
+        content = content.decode('utf-8')
+
+    type_ = enums.Document.Type.PLAIN_TEXT
+    document = {'type': type_, 'content': content}
+
+    response = client.analyze_sentiment(document)
+    sentiment = response.document_sentiment
+    print('Score: {}'.format(sentiment.score))
+    print('Magnitude: {}'.format(sentiment.magnitude))
