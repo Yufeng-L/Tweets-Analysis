@@ -9,7 +9,7 @@ We will use Twitter API and Google natural language API to implement.
 Language: Python
 
 - Authors:
-- __Yufeng Lin       yflin@bu.edu__
+- __Yufeng Lin     yflin@bu.edu__
 - __Yiming Miao    mym1031@bu.edu__
 
 ## Tweepy API:
