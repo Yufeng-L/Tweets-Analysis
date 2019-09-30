@@ -24,7 +24,7 @@ User A wants to know comments about the specific product such as Starbucks, and 
 - I, the user, should be able to grab most recent tweets with my desired input.
 - I, the user, should be able to grab tweets through one's timeline. (Deleted in the latest ver)
 - I, the user, should be able to visualize the results of output. (Via wordcloud)
-- I, the user, should be able to get sentiment analysis from Google Natural Language API about my desirde input.
+- I, the user, should be able to get sentiment analysis from Google Natural Language API about my desired input.
 
 ## Google Natural Language API
 
@@ -34,7 +34,7 @@ User A wants to know comments about the specific product such as Starbucks, and 
  
 - 2.Getting sentiment from a text
  
- The Python program Google_API_sentiment.py gives an example of analyzing the sentiment of a simple text "Hello, world!". We will get the sentiment score and sentiment magnitude from this API.
+ The Python program Google_text_sentiment.py gives an example of analyzing the sentiment of a simple text "Hello, world!". We will get the sentiment score and sentiment magnitude from this API.
  
 - 3.Getting entity's sentiment from a text
 
