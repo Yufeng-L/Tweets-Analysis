@@ -26,9 +26,6 @@ User A wants to know comments about the specific product such as Starbucks, and 
 - I, the user, should be able to visualize the results of output. __(Via wordcloud)__
 - I, the user, should be able to get sentiment analysis from Google Natural Language API about my desired input.
 
-## MVP
-
-The program is designed for users to 
 ## Steps for installing
 
     (1)Download the python program __miniproject1.py__.
