@@ -44,6 +44,10 @@ User A wants to know comments about the specific product such as Starbucks, and 
 
  The Python program __Google_entity_sentiment.py__ gives an example of getting entities from a text and analyze their sentiment score and sentiment magnitude.
  
+- __Get every line's sentiment from a text__
+
+ The Python program __Google_line_sentiment.py__ gives an example of analysing the text's attitude line by line. This program can give you both the whole attitude and the percentage of people who have the positive attitude and the percentage of people who have the negative attitude. This program is finally used in our project in __miniproject1.py__
+ 
 - __Problems Encountered__
 
  (1) At first, we tried to get the entity(keyword) from the text to analyze its sentiment. However, the entities capture was not accurate as we have assumed. For most of times, the program can't catch the entities accurately, which means that the program will catch lots of meaningless words. Even if the keyword was in the list of entities capture, it was not a pure entity or in other words, it would contain a long sentence. 
