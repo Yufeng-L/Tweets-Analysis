@@ -26,6 +26,15 @@ User A wants to know comments about the specific product such as Starbucks, and 
 - I, the user, should be able to visualize the results of output. __(Via wordcloud)__
 - I, the user, should be able to get sentiment analysis from Google Natural Language API about my desired input.
 
+## Steps for installing
+
+    (1)Download the python program __miniproject1.py__.
+    (2)Pip the packages that you don't have.
+    (3)Set the path of tweet.txt.
+    (4)Set the path of world cloud picture where you want to save.
+    (5)Set the Twitter key.
+    (6)Run this program in a terminal, the first command line is: export GOOGLE_APPLICATION_CREDENTIALS="your json key location". Then you can run our program.
+
 ## Google Natural Language API
 
 - __Pre-work__
