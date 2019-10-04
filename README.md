@@ -2,7 +2,7 @@
 
 Hello, this is the miniproject1 of EC601.
 
-In this project, we are going to build a software to help user analyze their desired food/products. The user can enter a keyword and then the software will tell the user about the attitude towards the keyword in Twitter. What's more, the software will also give user a world cloud based on the input keyword.
+In this project, we are going to build a software to help user analyze their desired food/products. The user can enter a keyword and then the software will tell the user about the attitude towards the keyword in Twitter. What's more, the software will output a word cloud based on the input keyword.
 
 We will use Twitter API and Google natural language API to implement.
 
