@@ -1,4 +1,4 @@
-# :sparkles: EC601 Miniproject1 :sparkles:
+# :sparkles: Tweets Analysis :sparkles:
 
 Hello, this is the miniproject1 of EC601.
 
